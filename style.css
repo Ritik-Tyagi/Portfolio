@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: rgb(180, 136, 221) ;
+    background: #2E5077;
     color: #fff;
 }
 #header{
@@ -29,15 +29,20 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     position: fixed;
+    /* background-color: whitesmoke; */
     
     
     
     
 }
 .logo{
-    width: 200px;
-    height:30px;
+    width: 150px;
+    /* height:30px; */
     margin-right: 550px;
+    /* background-color: black; */
+    padding: 10px;
+    border-radius: 30px;
+    color: lightpink;
     
     
 
@@ -49,6 +54,7 @@ nav ul li{
 
     margin-right: 20px;
     text-decoration: none;
+
     
         
 
@@ -59,6 +65,7 @@ nav ul li a{
     color: white;
     text-decoration: none;
     font-size: 20px;
+
     
 }
 nav ul li a::after{
@@ -172,7 +179,7 @@ nav ul li a::after{
 
 }
 .Skills-list div{
-    background: rgb(182, 27, 156);
+    background:#A6CDC6;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -208,6 +215,7 @@ nav ul li a::after{
 .teach-list{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    
     grid-gap: 40px;
     margin-top: 50px;
 
@@ -241,7 +249,7 @@ nav ul li a::after{
 }
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     grid-gap: 40px; 
     margin-top: 50px;  
 }
@@ -253,6 +261,7 @@ nav ul li a::after{
 }
 .work img{
     width: 100%;
+   
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -297,6 +306,7 @@ nav ul li a::after{
 }
 .work:hover .layer{
     height: 100%;
+   
 }
  
 .btn{
