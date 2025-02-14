@@ -17,7 +17,21 @@ function openmenu(){
 }
 function closemenu(){
     sidemenu.style.right="-200px";
-}  
+}
+// document.getElementById('downloadCV').addEventListener('click', function (event) {
+//     event.preventDefault(); // Prevent default link behavior
+
+//     // Open the resume in a new tab
+//     const viewUrl = 'https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67873e0ef7b3074e912a29bb';
+//     window.open(viewUrl, '_blank');
+
+//     // Trigger the download
+//     const downloadUrl = 'https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67873e0ef7b3074e912a29bb';
+//     const a = document.createElement('a');
+//     a.href = downloadUrl;
+//     a.download = 'My_Resume.pdf';
+//     a.click();
+//   });  
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbz2xznmMnYNWit88osg7XCU7oQXvyFoK-Sx8vRyGMYTkXxY7rKOS0nTYSIa3vVVYIhb/exec'
     const form = document.forms['submit-to-google-sheet']
@@ -34,3 +48,5 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbz2xznmMnYNWit88osg7X
         })
         .catch(error => console.error('Error!', error.message))
     })
+
+
